@@ -1,0 +1,31 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-container {
+    width: 100vw;
+    header {
+        max-width: 1920px;
+        width: 80%;
+        margin: 0 auto;
+        h1.title{
+            text-align: center;
+            font-size: 32px;
+            line-height: 80px;
+            font-weight: 700;
+        }
+    }
+    nav {
+        max-width: 1920px;
+        width: 80%;
+        margin: 0 auto;
+        ul.nav{
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin: 0 auto;
+            font-weight: 700;
+        }
+    }
+}
