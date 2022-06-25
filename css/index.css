@@ -142,14 +142,14 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 40px;
-  background-color: #333;
+  background-color: #023047;
   color: #fff;
   padding: 5px 10px;
   margin: 0 10px;
 }
 
 .calendar-container .calendar section .table-container .tb-head .days .holiday {
-  background-color: #806641;
+  background-color: #274c77;
 }
 
 .calendar-container .calendar section .table-container .tb-body .dates .date {
@@ -161,11 +161,11 @@ body {
   cursor: pointer;
   border: 1px solid #ccc;
   font-weight: 650;
-  color: #333;
+  color: #52616a;
   padding-left: 15px;
 }
 
 .calendar-container .calendar section .table-container .tb-body .dates .holiday {
-  color: #ff0044;
+  color: #ff7473;
 }
 /*# sourceMappingURL=index.css.map */
