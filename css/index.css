@@ -119,46 +119,53 @@ body {
   text-align: center;
   font-size: 28px;
   font-weight: 700;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .calendar-container .calendar section {
   padding-top: 36px;
 }
 
-.calendar-container .calendar section .days {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.calendar-container .calendar section .table-container {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.calendar-container .calendar section .days .day {
-  width: calc(100% / 7 - 20px);
+.calendar-container .calendar section .table-container .tb-head {
+  text-align: center;
+}
+
+.calendar-container .calendar section .table-container .tb-head .days .day {
   text-align: center;
   font-weight: 600;
   font-size: 16px;
   line-height: 40px;
   background-color: #333;
   color: #fff;
-  border-radius: 15px;
-  -webkit-box-shadow: 1px 1px 3px #ccc;
-          box-shadow: 1px 1px 3px #ccc;
+  padding: 5px 10px;
+  margin: 0 10px;
 }
 
-.calendar-container .calendar section .days .holiday {
+.calendar-container .calendar section .table-container .tb-head .days .holiday {
   background-color: #806641;
 }
 
-.calendar-container .calendar section .dates-container {
-  padding-top: 18px;
+.calendar-container .calendar section .table-container .tb-body .dates .date {
+  font-size: 16px;
+  text-align: left;
+  padding: 50px 0;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  font-weight: 650;
+  color: #333;
+  padding-left: 15px;
 }
 
-.calendar-container .calendar section .dates-container .dates {
-  width: 100%;
-}
-
-.calendar-container .calendar section .dates-container .dates .date {
-  width: calc(100% / 7 - 20px);
+.calendar-container .calendar section .table-container .tb-body .dates .holiday {
+  color: #ff0044;
 }
 /*# sourceMappingURL=index.css.map */

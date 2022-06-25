@@ -17,8 +17,8 @@
             <h1 class="title">La Vie Est Belle</h1>
             <nav>
                 <ul class="nav">
-                    <li>Schedule</li>
-                    <li>Stock</li>
+                    <li>출결체크</li>
+                    <li>재고정리</li>
                 </ul>
             </nav>
         </header>
@@ -30,68 +30,83 @@
                 <div class="container">
                     <input type="number" id="year" value="2022">
                     <select id="month" class="month">
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                        <option value="May">May</option>
-                        <option value="June">June</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                        <option value="September">September</option>
-                        <option value="October">October</option>
-                        <option value="November">November</option>
-                        <option value="December">December</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
                     </select>
-                </div>        
-                <!-- <h2 class="year-month"><span class="month">JULY</span> <span class="year">2022</span></h2> -->
+                </div>                        
                 <button class="btn after"><i class="xi-angle-right-min"></i></button>
             </header>
             <section>
-                <ul class="days">
-                    <li class="day holiday">Sunday</li>
-                    <li class="day">Monday</li>
-                    <li class="day">Thusday</li>
-                    <li class="day">Wednesday</li>
-                    <li class="day">Thursday</li>
-                    <li class="day">Friday</li>
-                    <li class="day holiday">Saturday</li>
-                </ul>
-                <div class="dates-container">
-                    <div class="dates">
-                        <h4 class="date">1</h4>
-                        <h4 class="date">2</h4>
-                        <h4 class="date">3</h4>
-                        <h4 class="date">4</h4>
-                        <h4 class="date">5</h4>
-                        <h4 class="date">6</h4>
-                        <h4 class="date">7</h4>
-                        <h4 class="date">8</h4>
-                        <h4 class="date">9</h4>
-                        <h4 class="date">10</h4>
-                        <h4 class="date">11</h4>
-                        <h4 class="date">12</h4>
-                        <h4 class="date">13</h4>
-                        <h4 class="date">14</h4>
-                        <h4 class="date">15</h4>
-                        <h4 class="date">16</h4>
-                        <h4 class="date">17</h4>
-                        <h4 class="date">18</h4>
-                        <h4 class="date">19</h4>
-                        <h4 class="date">20</h4>
-                        <h4 class="date">21</h4>
-                        <h4 class="date">22</h4>
-                        <h4 class="date">23</h4>
-                        <h4 class="date">24</h4>
-                        <h4 class="date">25</h4>
-                        <h4 class="date">26</h4>
-                        <h4 class="date">27</h4>
-                        <h4 class="date">28</h4>
-                        <h4 class="date">29</h4>
-                        <h4 class="date">30</h4>
-                        <h4 class="date">31</h4>
-                    </div>
-                </div>
+                <table class="table-container">
+                    <thead class="tb-head">
+                        <tr class="days">
+                            <th class="day holiday">일</th>
+                            <th class="day">월</th>
+                            <th class="day">화</th>
+                            <th class="day">수</th>
+                            <th class="day">목</th>
+                            <th class="day">금</th>
+                            <th class="day holiday">토</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tb-body">
+                        <tr class="dates">
+                            <td class="date holiday">1</td>
+                            <td class="date">2</td>
+                            <td class="date">3</td>
+                            <td class="date">4</td>
+                            <td class="date">5</td>
+                            <td class="date">6</td>
+                            <td class="date holiday">7</td>
+                        </tr>
+                        <tr class="dates">
+                            <td class="date holiday">8</td>
+                            <td class="date">9</td>
+                            <td class="date">10</td>
+                            <td class="date">11</td>
+                            <td class="date">12</td>
+                            <td class="date">13</td>
+                            <td class="date holiday">14</td>
+                        </tr>
+                        <tr class="dates">
+                            <td class="date holiday">15</td>
+                            <td class="date">16</td>
+                            <td class="date">17</td>
+                            <td class="date">18</td>
+                            <td class="date">19</td>
+                            <td class="date">20</td>
+                            <td class="date holiday">21</td>
+                        </tr>
+                        <tr class="dates">
+                            <td class="date holiday">22</td>
+                            <td class="date">23</td>
+                            <td class="date">24</td>
+                            <td class="date">25</td>
+                            <td class="date">26</td>
+                            <td class="date">27</td>
+                            <td class="date holiday">28</td>
+                        </tr>
+                        <tr class="dates">
+                            <td class="date holiday">29</td>
+                            <td class="date">30</td>
+                            <td class="date">31</td>
+                            <td class="date"></td>
+                            <td class="date"></td>
+                            <td class="date"></td>
+                            <td class="date holiday"></td>
+                        </tr>
+                    </tbody>
+                </table>                
             </section>
         </div>
     </div>
